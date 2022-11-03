@@ -1,0 +1,16 @@
+Package: prop_true
+Title: Find the proportion of x=1 in a list of numbers.
+Version: 0.0.0.9000
+Authors@R:
+  person("Michelle", "Kamigaki-Baron", , "first.last@example.com", role = c("aut", "cre"),
+         comment = c(ORCID = "Y0000-0002-7665-8859"))
+Description: Using this function we can find the proportion of x=1. This function is particularly helpful with binary data, if one variable (e.g. TRUE).
+This function is called prop_true() because of its ideal use of using this with binary data, where TRUE can be set to 1 and FALSE can be set to 0.
+This can be used in the case of variables in a list e.g. prop_true(x = c(1, 0)).
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests:
+  testthat (>= 3.0.0)
+Config/testthat/edition: 3

@@ -1,0 +1,8 @@
+library(testthat)
+
+test_that("true is set to x=1", {
+  expect_equal(prop_true(x = c(1, 0)), (1/2))
+  expect_equal(prop_true(x= c(FALSE, TRUE, FALSE)), (1/3))
+  expect_error(prop_true(1,0), message("Error in prop_true(1, 0) : unused argument (0)"))
+})
+
