@@ -6,6 +6,10 @@
 #' @param  This function is called prop_true() because of its ideal use of using this with binary data, where TRUE can be set to 1 and FALSE can be set to 0.
 #' This can be used in the case of variables in a list e.g. prop_true(x = c(1, 0)). This can also be used with TRUE and FALSE directly. This will automatically set
 #' TRUE= 1 and FALSE = 0, and will find the proportion of x=1. Function will return a proportion value.
+#' This function takes the sum of x=1 (using syntax sum(x==1)) over the length of the entire list (length(x)).
+#'The argument you must place into this function is a vector called x, which will contain values either 1 or non-1.
+#'The function determines how many values are equal to 1 in this dataset.
+#'
 #'
 #' @return Function will return the proportion of x = 1, in decimal form.
 #' @export
