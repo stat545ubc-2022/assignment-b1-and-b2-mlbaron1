@@ -1,14 +1,13 @@
 
-#' Title: prop_true() - The proportion of x=1
-#'Description: Using this function we can find the proportion of x=1. This function is particularly helpful with binary data, if one variable (e.g. TRUE).
+#' Title: prop_true() - "The Proportion of x=1"
+#'Description: Using this function we can find the proportion of x=1. 
 
 #'
-#' @param  This function is called prop_true() because of its ideal use of using this with binary data, where TRUE can be set to 1 and FALSE can be set to 0.
-#' This can be used in the case of variables in a list e.g. prop_true(x = c(1, 0)). This can also be used with TRUE and FALSE directly. This will automatically set
-#' TRUE= 1 and FALSE = 0, and will find the proportion of x=1. Function will return a proportion value.
+#' @param  This function is called prop_true() because of its ideal use of using this with binary (TRUE/FALSE) data, where TRUE will be default set to 1 and FALSE will be default set to 0 by R.
+#' It can alternatively be used for other numerical variables in a vector. To use this function, you must place a set of numbers (or TRUE FALSE values) named x, and the function will determine among the variables in the dataset, the proportion of x=1. 
 #' This function takes the sum of x=1 (using syntax sum(x==1)) over the length of the entire list (length(x)).
-#'The argument you must place into this function is a vector called x, which will contain values either 1 or non-1.
-#'The function determines how many values are equal to 1 in this dataset.
+#' The argument you must place into this function is a vector called x, which will contain values either 1 or non 1, TRUE or FALSE, or other data which has specific numerical coding where the value you are looking for is x=1.
+#' The function determines how many values are equal to 1 in this dataset.
 #'
 #'
 #' @return Function will return the proportion of x = 1, in decimal form.
