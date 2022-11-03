@@ -16,8 +16,6 @@ There you may find:
 
 3) test-propTRUE.R contains the Exercise 4: Test the Function (25 points), using functions as part of the testthat package including expect_equal() and expect_error().
 
-4) .DS_Store appears to be a dependancy. Whenever I delete it, github complains that I need to pull the request and place it back in. 
-
 
 Mahalo
 Michelle Kamigaki-Baron
