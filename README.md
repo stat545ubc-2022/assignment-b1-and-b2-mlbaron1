@@ -1,6 +1,6 @@
 
 Hello, 
-This is Michelle Baron's repository for LING 545B! 
+This is Michelle Kamigaki-Baron's repository for LING 545B! 
 
 Assignment B1 is contained within the b1 folder. 
 There you may find: 
@@ -18,5 +18,5 @@ There you may find:
 
 
 Mahalo
-
+Michelle Kamigaki-Baron
 
