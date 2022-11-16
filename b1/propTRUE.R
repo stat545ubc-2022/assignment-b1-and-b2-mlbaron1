@@ -18,17 +18,17 @@
 #' [1] 0.5
 #' This value indicates that in this set, x=1 50% of the time.
 #'
-#'e.g.
+#'# e.g.
 #'prop_true(x= c(FALSE,TRUE,TRUE))
 #'
-#'[1] 0.6666667
-#'R will set TRUE = 1 by default, and will thus TRUE and FALSE variables can also be used with this function. Here, we can see that the function will calculate that the TRUE value occurs 2/3 of the time, giving us the proportion of TRUE = 0.6666667
+#'#[1] 0.6666667
+#'#R will set TRUE = 1 by default, and will thus TRUE and FALSE variables can also be used with this function. Here, we can see that the function will calculate that the TRUE value occurs 2/3 of the time, giving us the proportion of TRUE = 0.6666667
 #'
-#'e.g.
+#'#e.g.
 #'prop_true(x= c(1,2,3))
 #'
-#'[1] 0.3333333
-#'this also with non-binary data, where it would find where x=1.
+#'#[1] 0.3333333
+#'#this also with non-binary data, where it would find where x=1.
 #'
 
 
