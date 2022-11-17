@@ -42,7 +42,3 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
