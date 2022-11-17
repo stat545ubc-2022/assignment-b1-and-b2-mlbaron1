@@ -35,6 +35,12 @@ vignettes/*.pdf
 *_cache/
 /cache/
 
+#why is this not working?
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
