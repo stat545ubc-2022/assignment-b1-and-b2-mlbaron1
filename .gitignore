@@ -22,7 +22,7 @@
 *.Rproj
 
 #ds files 
-*.DS_Store
+.DS_Store
 
 # produced vignettes
 vignettes/*.html
@@ -34,12 +34,6 @@ vignettes/*.pdf
 # knitr and R markdown default cache directories
 *_cache/
 /cache/
-
-#why is this not working?
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
 
 # Temporary files created by R markdown
 *.utf8.md
