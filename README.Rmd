@@ -32,7 +32,8 @@ The "b2" folder wraps the prop_true function into an R package.
 ``` r
 There are no dependencies for this package.
 Use this to install the package:
-devtools::install_github("https://github.com/stat545ubc-2022/assignment-b1-and-b2-mlbaron1/b2/proptrue")
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-mlbaron1/b2/proptrue")
+
 ```
 
 ## Example
