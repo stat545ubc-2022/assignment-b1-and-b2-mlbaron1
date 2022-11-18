@@ -19,7 +19,6 @@
 
 # RStudio files
 .Rproj.user/
-*.Rproj
 
 #ds files 
 *.DS_Store
@@ -41,7 +40,4 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
-
-#read me
-README.Rmd
 
