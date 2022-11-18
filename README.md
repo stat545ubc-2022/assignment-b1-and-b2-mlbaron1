@@ -3,11 +3,16 @@
 
 # proptrue
 
+This package contains the function prop_true() which determines the
+proportion of a value x=1. This can be used with numerical values or
+non-numerical values that can be coerced into numerical values such as
+true/false data (default settings are that true = 1 ).
+
 <!-- badges: start -->
-<!-- badges: end -->
 
 The “b1” folder contains assignment B1 where the function prop_true was
 written. The “b2” folder wraps the prop_true function into an R package.
+<!-- badges: end -->
 
 ## Installation
 
