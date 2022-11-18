@@ -1,22 +1,59 @@
 
-Hello, 
-This is Michelle Kamigaki-Baron's repository for LING 545B! 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-Assignment B1 is contained within the b1 folder. 
-There you may find: 
-1) propTRUE.R = contains the Exercise 1: Make a Function (25 points), which is a function to help you find the proportion of a variable where x=1.
+# proptrue
 
- prop_true <- function(x) {
-  sum( ( x == 1 ) / length( x ) )
-}
-   
-   propTRUE.R also contains Exercise 2: Document your Function (20 points), using roxygen2 tags. Here you will find a title, description, documentation of each argument using the @param tag, and what the function returns, using the @return tag. propTRUE.R also contains Exercise 3: Include examples (15 points). 
-   
-2) DESCRIPTION contains some descriptive information which is recommended to be included with such a function. This contains some of the same generalized descriptive information as contained in propTRUE.R however, it will also include more details about the author and their identifying information and the liscensing associated with the function/package. 
+<!-- badges: start -->
+<!-- badges: end -->
 
-3) test-propTRUE.R contains the Exercise 4: Test the Function (25 points), using functions as part of the testthat package including expect_equal() and expect_error().
+The “b1” folder contains assignment B1 where the function prop_true was
+written. The “b2” folder wraps the prop_true function into an R package.
 
+## Installation
 
-Mahalo
-Michelle Kamigaki-Baron
+``` r
+There are no dependencies for this package.
+Use this to install the package:
+devtools::install_github("https://github.com/stat545ubc-2022/assignment-b1-and-b2-mlbaron1/b2/proptrue")
+```
 
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+``` r
+library(proptrue)
+prop_true(x=c(TRUE,FALSE,TRUE))
+#> [1] 0.6666667
+prop_true(x=c(1,0,0,0))
+#> [1] 0.25
+prop_true(x=c(1,2,3))         
+#> [1] 0.3333333
+```
+
+What is special about using `README.Rmd` instead of just `README.md`?
+You can include R chunks like so:
+
+``` r
+summary(cars)
+#>      speed           dist       
+#>  Min.   : 4.0   Min.   :  2.00  
+#>  1st Qu.:12.0   1st Qu.: 26.00  
+#>  Median :15.0   Median : 36.00  
+#>  Mean   :15.4   Mean   : 42.98  
+#>  3rd Qu.:19.0   3rd Qu.: 56.00  
+#>  Max.   :25.0   Max.   :120.00
+```
+
+You’ll still need to render `README.Rmd` regularly, to keep `README.md`
+up-to-date. `devtools::build_readme()` is handy for this. You could also
+use GitHub Actions to re-render `README.Rmd` every time you push. An
+example workflow can be found here:
+<https://github.com/r-lib/actions/tree/v1/examples>.
+
+You can also embed plots, for example:
+
+<img src="man/figures/README-pressure-1.png" width="100%" />
+
+In that case, don’t forget to commit and push the resulting figure
+files, so they display on GitHub and CRAN.
