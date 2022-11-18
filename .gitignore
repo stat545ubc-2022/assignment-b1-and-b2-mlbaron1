@@ -22,7 +22,7 @@
 *.Rproj
 
 #ds files 
-.DS_Store
+*.DS_Store
 
 # produced vignettes
 vignettes/*.html
